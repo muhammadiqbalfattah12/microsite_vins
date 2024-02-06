@@ -6,12 +6,16 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      // add extra themes here
-    },
+    colors: {
+      'backsec': '#ffffff',
+      'font': '#03002C',
+      'back': '#F2E8C6',
+      'main': '#F5841A',
+      'sec': '#BB0029',
+    }
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ['dark']
+    themes: ['light']
   }
 };
