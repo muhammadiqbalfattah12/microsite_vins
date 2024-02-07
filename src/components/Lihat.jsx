@@ -35,7 +35,15 @@ export const Lihat = () => {
 
     <div>
         <p className='font-semibold my-2 text-md mt-7 underline underline-offset-8'> 1.4 Ajukan Klaim </p>
-        <button onClick={ToastNotication} className='btn bg-backsec btn-md mt-5 text-black hover:bg-main hover:text-backsec w-full'> Ajukan Klaim </button>
+        <button
+          onClick={ToastNotication}
+          className="btn bg-backsec btn-md mt-5 text-black hover:bg-main hover:text-backsec w-full"
+          style={{
+            boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.5)", // Efek box-shadow
+          }}
+        >
+          Ajukan Klaim
+        </button>
     </div>
 
     <Toaster/>
