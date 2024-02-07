@@ -19,7 +19,17 @@ export const DataTertanggung = () => {
         <input type="text" placeholder='No. Ktp/Passport' className='input-xs'/>
         
         <label htmlFor="" className='text-sm mt-10 mb-5 font-semibold underline underline-offset-8'> Upload Ktp </label>
-        <input type="file" placeholder="Upload Ktp" className="file-input file-input-ghost w-full max-w-xs file-input-xs" />
+        <input
+          type="file"
+          placeholder="Upload Ktp"
+          className="file-input file-input-ghost w-full max-w-xs file-input-xs"
+          style={{
+            backgroundColor: "white",
+            color: "black",
+            border: "none",
+            boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.5)",
+          }}
+        />
         </form>
     </div>
 
